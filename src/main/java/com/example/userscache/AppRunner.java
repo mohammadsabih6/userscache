@@ -18,7 +18,7 @@ public class AppRunner implements CommandLineRunner {
     
     @Override
     public void run(String... args) throws Exception {
-        logger.info("....Fetching user details.");.
+        logger.info("....Fetching user details.");
         logger.info("Afnan---->  "+iuser.getByname("Master Trainer"));
         logger.info("Javeria---->  " + iuser.getByname(" Student"));
         logger.info("Tahreem---->  " + iuser.getByname("Student "));
